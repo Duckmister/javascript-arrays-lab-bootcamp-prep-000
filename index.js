@@ -11,6 +11,7 @@ function destructivelyPrependKitten(name){
   var lastKittens = kittens.unshift(name);
   return lastKittens
 }
+<<<<<<< HEAD
 
 function destructivelyRemoveLastKitten(){
   var deadKitten = kittens.pop();
@@ -41,3 +42,5 @@ function removeFirstKitten(){
   var someKittens = kittens.slice(1)
   return someKittens
 }
+=======
+>>>>>>> 2a08d392966ca330c3085a53cf5f6501331e7ff8
